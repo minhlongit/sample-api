@@ -799,6 +799,7 @@ export interface ApiCourseCourse extends Schema.CollectionType {
     descriptions: Attribute.Text;
     price: Attribute.BigInteger;
     banner: Attribute.Media;
+    subject: Attribute.String;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
